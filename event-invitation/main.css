@@ -1,0 +1,48 @@
+body {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #f996ce;
+  background: url("https://images.unsplash.com/photo-1518314144686-36a36d62a13c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c4908ecc4c772706fabb8d44be6edac8&auto=format&fit=crop&w=1950&q=80") no-repeat; }
+  body #wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(100, 100, 100, 0.3); }
+
+section {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  height: 360px;
+  margin: 0 auto;
+  padding-top: 15%;
+  text-align: center; }
+  section #event-details {
+    margin: 0 auto; }
+    section #event-details h1 {
+      font-size: 4em;
+      font-family: "Exo", sans-serif;
+      margin: 0;
+      line-height: .8em;
+      margin-bottom: 32px; }
+    section #event-details h2 {
+      text-transform: uppercase;
+      font-size: 1em; }
+    section #event-details button {
+      padding: 8px 24px;
+      letter-spacing: 4px;
+      outline: none;
+      border: none;
+      background-color: rgba(100, 100, 100, 0.3);
+      color: pink; }
+      section #event-details button:hover {
+        cursor: pointer; }
+
+/****** MEDIA QUERIES ******/
+@media only screen and (min-width: 768px) {
+  h1 br {
+    display: none; }
+
+  section {
+    font-size: 24px; } }
+
+/*# sourceMappingURL=main.css.map */
