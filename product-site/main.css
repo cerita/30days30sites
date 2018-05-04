@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800');
+
+
+.container-fluid {
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+*, h2 {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    /* letter-spacing:  */
+}
+
+
+
+/****** NAV ******/
+
+nav {
+    height:70px;
+    width:100%;
+    padding: 16px;
+}
+
+nav > ul {
+    float:right;
+    display:inline;
+}
+nav > ul > li {
+    display:inline;
+    margin:0 16px;
+    color: #E72D9E;
+}
+
+nav > ul > li > a {
+    color: #E72D9E;
+}
+
+
+/****** JUMBOTRON ******/
+section {
+    width:100%;
+    height: 800px;
+    background-image:url(https://cdn-cf.ipsy.com/contentAsset/image/21624198-5f88-4e1b-972f-0875751afccb/fileAsset);
+    background-repeat: none;
+    background-position: top;
+    background-size:cover;
+}
+
+
+#intro-text {
+    /* border: 1px solid red; */
+    width: auto;
+    margin:0 auto;
+    text-align: center;
+    padding-top:20%;
+}
+h2 {
+    position:relative;
+    left: -60px;
+}
+
+.fav-products-list {
+    display:inline;
+    text-indent: 8px;
+}
+
+
+.fav-products-list span{
+	opacity: 0;
+	overflow: hidden;
+    position: absolute;
+    
+    animation: rotateWords 30s linear infinite 0s;
+	-ms-animation: rotateWords 30s linear infinite 0s;
+	-webkit-animation: rotateWords 30s linear infinite 0s;
+} 
+
+.fav-products-list span:nth-child(2){
+	animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+}
+
+.fav-products-list span:nth-child(3){
+	animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	-webkit-animation-delay: 6s;
+}
+
+.fav-products-list span:nth-child(4){
+	animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	-webkit-animation-delay: 9s;
+}
+
+.fav-products-list span:nth-child(5){
+	animation-delay: 12s;
+	-ms-animation-delay: 12s;
+	-webkit-animation-delay: 12s;
+}
+
+.fav-products-list span:nth-child(6){
+	animation-delay: 15s;
+	-ms-animation-delay: 15s;
+	-webkit-animation-delay: 15s;
+}
+
+.fav-products-list span:nth-child(7){
+	animation-delay: 18s;
+	-ms-animation-delay: 18s;
+	-webkit-animation-delay: 18s;
+}
+
+.fav-products-list span:nth-child(8){
+	animation-delay: 21s;
+	-ms-animation-delay: 21s;
+	-webkit-animation-delay: 21s;
+}
+
+.fav-products-list span:nth-child(9){
+	animation-delay: 24s;
+	-ms-animation-delay: 24s;
+	-webkit-animation-delay: 24s;
+}
+
+.fav-products-list span:nth-child(10){
+	animation-delay: 27s;
+	-ms-animation-delay: 27s;
+	-webkit-animation-delay: 27s;
+}
+
+@keyframes rotateWords{
+    0% {
+        opacity: 0;
+    }
+    2% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    5% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    10% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    12% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+button {
+    background-color: #E72D9E;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0%;
+}
+
+small {
+    color: #888;
+}
+
+
+/****** FOOTER ******/
+footer {
+    padding: 0 15%;
+    margin:auto;
+}
+.social-media {
+    width:100%;
+}
+.social-media > li {
+    display:inline-block;
+    text-align: center;
+}

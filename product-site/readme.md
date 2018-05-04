@@ -1,0 +1,1 @@
+Clone of the current (May 2018) layout of the Ipsy website. 
