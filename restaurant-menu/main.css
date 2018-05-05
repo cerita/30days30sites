@@ -1,0 +1,112 @@
+body {
+    width:100%;
+    margin:0;
+    padding:0;
+}/*
+
+teal: #20C4F4;
+pink: #FB8ABD;
+
+*/
+
+
+.hello-kitty-pink {
+    color: #FB8ABD;
+}
+
+
+hr {
+    border-color: #FB8ABD;
+}
+
+
+
+section {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+
+nav, .email-signup {
+    background-color: #20C4F4;
+    color: #fff;
+}
+
+/****** NAV ******/
+
+
+
+
+/****** MAIN CONTENT ******/
+
+
+#cafe-logo > img {
+    max-width:100%;
+}
+
+@media screen and (min-width: 760px) {
+    #cafe-logo > img {
+        width: 30%;
+    }
+}
+
+#hero-content > img {
+    width:100%;
+}
+
+
+
+/******* MENU ******/
+.menu-header {
+    background-color: #FB8ABD;
+    padding:16px 0;
+}
+
+.menu-logo {
+    max-width:100%;
+}
+
+@media screen and (min-width: 760px){
+.menu-logo {
+    width: 15%;
+}
+}
+
+.cafe-menu {    
+    border: 1px solid #FB8ABD;  
+  }
+
+.menu-item-container {
+    background-color: #FB8ABD;
+    margin-top: 16px;
+    padding: 16px;
+}
+
+.cafe-menu > img {
+    max-width:100%;
+    max-height:100%;
+    margin:0;
+    padding:0;
+}
+
+
+
+/****** FOOTER ******/
+
+footer {
+    margin-top: 32px;
+}
+.footer-links, .email-signup {
+    padding-top:32px;
+    padding-bottom: 32px;
+}
+
+footer > .container {
+    margin: 0 auto;
+}
+
+.email-signup {
+    margin-left: 32 px;
+    
+}
