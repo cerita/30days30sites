@@ -59,7 +59,7 @@
     </section>
 
     <section class="container-fluid cafe-content">
-        <div>
+        <div class='text-center cafe-links'>
             <a href="#">Cafe Home</a>
             <span class="hello-kitty-pink"> | </span>
             <a href="#">Hello Kitty Cafe</a>
@@ -67,23 +67,26 @@
             <a href="#">Hello Kitty Cafe Trucks</a>
         </div>
 
-        <div class="cafe-text">
-            <h2 class="hello-kitty-pink">Hello Kitty Cafe</h2>
-            <p>Every item from the Hello Kitty Cafe menu is inspired by treats from around the world and made with love. Have
-                a sweet day!
-                <span class="hello-kitty-pink">&hearts;</span>
-            </p>
+        <div class="cafe-text text-center">
+            <div class="container">
+                <h2 class="hello-kitty-pink">Hello Kitty Cafe</h2>
+                <p>Every item from the Hello Kitty Cafe menu is inspired by treats from around the world and made with love.
+                    Have a sweet day!
+                    <span class="hello-kitty-pink">&hearts;</span>
+                </p>
+            </div>
+
         </div>
 
         <div class="cafe-location text-center">
             <h2 class="menu-header">Southern California Menu</h2>
             <img src="assets/images/cafe_location_food.jpg" alt="" class="img-fluid menu-logo">
-            <h2 class="hello-kitty-pink">Southern California</h2>
+            <h2 class="hello-kitty-pink"><em>Southern California</em></h2>
         </div>
 
 
         <!-- start menu -->
-        <div class="cafe-menu">
+        <div class="cafe-menu container">
             <div class="row">
                 <div class="menu-left col-sm-6">
                     <div class="container">
@@ -155,7 +158,7 @@
                     <div class="container">
                         <div class="col-xs-12 menu-item-container">
                             <h3>Beverage Menu</h3>
-                            <table class='table'>
+                            <table class='table beverages'>
 
                                 <tr>
                                     <th>Drinks</th>
@@ -281,7 +284,7 @@
 
     </section>
 
-    <section class="container-fluid callout-boxes">
+    <section class="container callout-boxes">
         <div class="row">
             <div class="col-md-4">
                 <img class='img-fluid' src="assets/images/cafe_business.jpg" alt="">
@@ -295,7 +298,7 @@
         </div>
     </section>
 
-    <section class="container-fluid social-links text-center">
+    <section class="container social-links-section text-center">
         <div>
             <img class="img-fluid" src="assets/images/cafe_footer.png" alt="">
             <div class="row social-links">
@@ -335,9 +338,9 @@
     <hr>
 
     <footer>
-        <div class="row container footer-links">
+        <div class="row container-fluid footer-links">
             <div class="col-md-3">
-                <p class="lead">World of Sanrio</p>
+                <p ><strong>World of Sanrio</strong></p>
                 <ul>
                     <li>
                         <a href="#">About Sanrio</a>
@@ -358,7 +361,7 @@
             </div>
 
             <div class="col-md-3">
-                <p class="lead">Need Help?</p>
+                <p><strong>Need Help?</strong></p>
                 <ul>
                     <li>
                         <a href="#">Customer Service</a>
@@ -373,7 +376,7 @@
             </div>
 
             <div class="col-md-3">
-                <p class="lead">Resources</p>
+                <p><strong>Resources</strong></p>
                 <ul>
                     <li>
                         <a href="#">Store Locator</a>
@@ -391,7 +394,7 @@
             </div>
 
             <div class="col-md-3">
-                <p class="lead">More</p>
+                <p><strong>More</strong></p>
                 <ul>
                     <li>
                         <a href="#">e-Gift Card</a>
@@ -412,13 +415,15 @@
         </div>
 
         <div class="email-signup">
-            <div class=" row container">
-                <div class=" offset-md-2 col-md-6">
-                    <p class="lead">Sign Up for Email</p>
+            <div class="row container-fluid">
+                <div class=" offset-lg-1 col-md-6 col-lg-4">
+                    <h2>Sign Up for Email</h2>
                     <p>Be the first to get the scoop on new releases, exclusive events, free gifts, shipping offers and more!</p>
                     <div class="input-group">
                         <input type="email" name="email" placeholder="enter your email address" required="required" class="form-control">
-                        <span><button type="submit" class="btn ">Join</button></span>
+                        <span>
+                            <button type="submit" class="btn join-btn">Join</button>
+                        </span>
                     </div>
                     <div class="footer-social-links">
                         <a href="#">
@@ -440,7 +445,14 @@
                             <i class="fab fa-youtube-square"></i>
                         </a>
                     </div>
-                    <p><small><em>© 2018 SANRIO CO., LTD. All Sanrio characters that appear on this website are protected by <a href="#">copyright.</a></em></small></p>
+                    <p class="fine-print">
+                        <small>
+                            <em>© 2018 SANRIO CO., LTD. All Sanrio characters that appear on this website are protected by
+                                <a
+                                    href="#">copyright.</a>
+                            </em>
+                        </small>
+                    </p>
                 </div>
             </div>
         </div>

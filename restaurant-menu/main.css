@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Quicksand:400,700|Varela+Round');
+
+
+
 body {
     width:100%;
     margin:0;
     padding:0;
+    font-family: "Didact Gothic", Futura, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #555;
 }/*
 
 teal: #20C4F4;
 pink: #FB8ABD;
 
 */
+
+h2, h3 {
+    font-family: "Quicksand"; 
+    font-weight: 700;
+}
 
 
 .hello-kitty-pink {
@@ -24,6 +35,7 @@ hr {
 section {
     margin-top: 32px;
     margin-bottom: 32px;
+    width: 100%;
 }
 
 
@@ -35,11 +47,38 @@ nav, .email-signup {
 
 /****** NAV ******/
 
+nav > div > ul > li > a {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
+
+
+/****** HERO ******/
+.hero {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 64px;
+}
 
 
 /****** MAIN CONTENT ******/
 
+.cafe-content {
+    font-size: 24px;
+    margin-top: 64px;
+}
+
+.cafe-links {
+    font-size: 16px;
+    margin: 32px 0;
+}
+
+.cafe-links > span {
+    font-size: 24px;
+    margin: 0 auto;
+}
 
 #cafe-logo > img {
     max-width:100%;
@@ -55,7 +94,22 @@ nav, .email-signup {
     width:100%;
 }
 
+.cafe-text {
+    font-family: "Quicksand";
+    font-weight: 700;
+    margin: 32px 0;
+}
 
+.cafe-text > .container {
+    width: 50%;
+    font-size: 24px;
+}
+
+
+
+.cafe-location {
+    margin: 32px 0;
+}
 
 /******* MENU ******/
 .menu-header {
@@ -73,9 +127,12 @@ nav, .email-signup {
 }
 }
 
+
 .cafe-menu {    
-    border: 1px solid #FB8ABD;  
+    border: 2px solid #FB8ABD;  
+    color: #000;
   }
+
 
 .menu-item-container {
     background-color: #FB8ABD;
@@ -90,13 +147,54 @@ nav, .email-signup {
     padding:0;
 }
 
+.table>tbody>tr>td,
+.table>tbody>tr>th {
+    border-top:none;
+}
+
+th {
+    color:#fff;
+}
+
+
+/****** CALLOUT ******/
+.callout-boxes {
+
+}
+
+
+/****** SOCIAL ******/
+
+social-links-section {
+
+}
+.social-links {
+    font-size: 24px;
+    font-family: "Quicksand";
+    background-color: #FEE3EF;
+    padding: 12px 0;
+}
+
+.fab {
+    color: #555;
+}
 
 
 /****** FOOTER ******/
 
 footer {
     margin-top: 32px;
+    background-color: #F6FBFE;
 }
+footer h2 {
+    font-family:"Didact Gothic";
+}
+
+.footer-links{
+    margin:0;
+    padding:0;
+}
+
 .footer-links, .email-signup {
     padding-top:32px;
     padding-bottom: 32px;
@@ -110,3 +208,56 @@ footer > .container {
     margin-left: 32 px;
     
 }
+
+.footer-links > div > p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer-links > div > ul {
+    padding: 0;
+}
+
+.footer-links > div > ul > li {
+    list-style: none;
+}
+
+.footer-links > div > ul > li > a {
+    color: inherit;
+}
+
+.footer-links > div > ul > li > a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-social-links {
+    margin-top:12px;
+}
+
+.footer-social-links > a > .fab {
+    color: #005aa9;
+    font-size: 40px;
+    margin:0 8px;
+}
+
+.footer-social-links > a > .fab:hover {
+    color: #007CC4;
+    font-size: 32px;
+    
+}
+
+.join-btn {
+    background-color: #005aa9;
+    color: #fff;
+}
+
+.join-btn:hover {
+    background-color:  #007CC4;
+}
+
+.fine-print {
+    font-size: 12px;
+}
+
+
