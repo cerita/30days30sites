@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Unica+One');
+
+body {
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+.container {
+    width: 95%;
+    margin:0 auto;
+    padding-left: 0;
+    padding-right:0;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        width:85%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        width:75%;
+        margin: 0 auto;
+    }
+}
+
+/****** HEADER ******/
+#header {
+    margin-bottom:2.5em;
+}
+h1 {
+    font-family: "Unica One", cursive;
+    font-size:48px;
+    letter-spacing: .22em;
+    margin-bottom: 0;
+}
+
+/****** PORTFOLIO ******/
+#portfolio {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.portfolio-container {
+    margin:0 auto;
+    max-width: 1200px;
+  }
+
+  .portfolio-item {
+    display: block;
+    margin:1rem;
+  }
+
+  .portfolio-item img {
+    max-width: 100%;
+  }
+
+
+  @media screen and (min-width: 600px) {
+    .portfolio-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .portfolio-item {
+      width: calc(50% - 2rem);
+    }
+  }
+
+
+  @media screen and (min-width: 1000px) {
+    .portfolio-item {
+      width: calc(33.3333% - 2rem);
+    }
+  }
+
+/****** FOOTER ******/
+#footer {
+    margin: 2.5em auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    #footer {
+        text-align: right;
+    }
+  }
+
+i {
+    font-size: 3em;
+}
+
+
+/****** BIO ******/
+#bio {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.bio-container {
+    margin:0 auto;
+    max-width: 1200px;
+  }
+
+  .bio-item {
+    display: block;
+    margin:1rem;
+  }
+
+  .bio-item img {
+    max-width: 100%;
+    border-radius: 50%;
+    border:10px solid pink;
+  }
+
+
+  @media screen and (min-width: 600px) {
+
+  }
+
+
+  @media screen and (min-width: 1000px) {
+
+  }
