@@ -6,6 +6,14 @@ body {
     padding:0;
 }
 
+a {
+    color: #000;
+}
+
+a:hover{
+    color: pink;
+}
+
 
 .container {
     width: 95%;
@@ -108,13 +116,14 @@ i {
 
   .bio-item {
     display: block;
-    margin:1rem;
+    margin:1rem auto;
   }
 
-  .bio-item img {
-    max-width: 100%;
+  .bio-left {
+    width: 350px;
     border-radius: 50%;
     border:10px solid pink;
+    box-sizing: border-box;
   }
 
 
@@ -123,6 +132,19 @@ i {
   }
 
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 750px) {
+    .bio-container {
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+    }
 
+    .bio-item {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .bio-left {
+        min-width: 350px;
+    }
   }
